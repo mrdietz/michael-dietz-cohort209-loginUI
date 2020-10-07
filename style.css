@@ -1,5 +1,49 @@
-html, body {
+html, body, h1 {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#container {
+    align-items: center;
+    background: linear-gradient(150deg, rgb(29, 235, 218), rgb(41, 48, 109), rgb(1, 1, 1));
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#login-form {
+    align-items: space-evenly;
+    background-color: rgb(236, 236, 236);
+    border: 5px solid goldenrod;
+    border-radius: 10%;
+    display: flex;
+    height: 250px;
+    justify-content: flex-start;
+    padding: 16px;
+    width: 250px;
+}
+
+h1 {
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+input {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.checkbox {
+    margin-bottom: 0;
+}
+
+button {
+    border: 3px solid lightgray;
+    margin-top: 5px;
+    padding: 4px 12px;
+    width: 100%;
+}

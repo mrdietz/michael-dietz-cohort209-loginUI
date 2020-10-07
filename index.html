@@ -9,8 +9,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-This is a test!
+    <div id="container">
+        <div id="login-form">
+            <div>
+                <h1>login</h1>
 
-    
+                <label>Email</label>
+                <input type="email">
+                <br>
+                <label>Password</label>
+                <input type="password" id="myInput">
+                <br>
+                <input class="checkbox" type="checkbox" onclick="myFunction()"> Show Password
+                <br>
+                <button>login</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+    </script>
 </body>
 </html>
