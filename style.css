@@ -21,7 +21,8 @@ html, body, h1 {
     border-radius: 10%;
     display: flex;
     height: 250px;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     padding: 16px;
     width: 250px;
     -webkit-box-shadow: 25px 25px 24px 13px rgba(0,0,0,0.73);
@@ -55,4 +56,5 @@ button {
     padding: 4px 12px;
     width: 75px;
     font-family: Verdana;
+    align-self: center;
 }
